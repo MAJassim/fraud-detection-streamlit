@@ -73,4 +73,6 @@ jobs:
         with:
           app-name: 'fraud-detection-streamlit'
           slot-name: 'Production'
+          package: '.'
+          scm-do-build-during-deployment: false 
           
